@@ -2,23 +2,34 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background-color: white; /* Set the background color of the enrollment container to white */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .page-title {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 20px;
-  color: #333;
+  color: #fff;
+  background-color: #ff7f00;
+  //#1a1e59 /* Dark blue for title */
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .loading, .error, .no-enrollments {
   text-align: center;
   padding: 20px;
   font-size: 18px;
-  color: #666;
+  color: #fff;
+  background-color: #1a1e59; /* Dark blue for notices */
+  border-radius: 8px;
 }
 
 .error {
-  color: #d32f2f;
+  background-color: #d32f2f; /* Keep error color for distinction */
+  color: white;
 }
 
 .enrollment-list {
@@ -27,7 +38,8 @@
 }
 
 .enrollment-item {
-  background-color: #f5f5f5;
+  background-color: #f9f9f9; /* Light background for enrollment items */
+  border: 2px solid #1a1e59; /* Blue border for consistency */
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
@@ -35,9 +47,9 @@
 }
 
 .course-title {
-  font-size: 20px;
+  font-size: 22px;
   margin: 0 0 10px;
-  color: #2c3e50;
+  color: #1a1e59; /* Dark blue for course title */
 }
 
 .course-description {
@@ -47,7 +59,7 @@
 }
 
 .progress-container {
-  background-color: #e0e0e0;
+  background-color: #f2f2f2;
   border-radius: 10px;
   height: 20px;
   position: relative;
@@ -55,7 +67,7 @@
 }
 
 .progress-bar {
-  background-color: #3498db;
+  background-color: #ff7f00; /* Orange for the progress bar */
   height: 100%;
   transition: width 0.3s ease;
 }
@@ -65,7 +77,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: white;
   font-size: 12px;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
