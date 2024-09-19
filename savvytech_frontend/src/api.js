@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const ServerUrl =  "https://savvytech-eta.vercel.app:5000";
+const ServerUrl =  "https://savvytech-eta.vercel.app:5000/api";
 
 // Create separate Axios instances with different base URLs
 const globalApi = axios.create({
